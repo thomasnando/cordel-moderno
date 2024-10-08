@@ -1,0 +1,43 @@
+@charset "UTF=8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-family: 'Passion One', 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 3cm;
+}
+header > p {
+    padding-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+section > p {
+    font-family: 'Sriracha', Arial;
+    font-size: 40px; 
+    margin-top: 60px;
+    margin-left: 40px;
+}
+div > p{
+    font-family: 'Sriracha', Arial;
+    font-size: 40px; 
+    margin-top: 60px;
+    margin-left: 40px;
+}
