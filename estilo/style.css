@@ -29,15 +29,42 @@ a:hover {
     text-decoration: underline;
 }
 
+article > p {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+article > p {
+    font-family: 'Sriracha', Arial;
+    font-size: 40px; 
+    line-height: 2.0;
+    margin-top: 20px;
+    margin-left: 30px;
+}
 section > p {
     font-family: 'Sriracha', Arial;
     font-size: 40px; 
-    margin-top: 60px;
-    margin-left: 40px;
+    line-height: 2.0;
+    width: 500px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    text-shadow: 2px 1px 0px black;
+
 }
-div > p{
-    font-family: 'Sriracha', Arial;
-    font-size: 40px; 
-    margin-top: 60px;
-    margin-left: 40px;
+
+section.primeira {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    height: 650px;
+    padding-top: 80px;
+}
+
+section.segunda {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    height: 650px;
+    padding-top: 80px;
 }
